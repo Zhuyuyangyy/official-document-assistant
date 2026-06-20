@@ -1,0 +1,1 @@
+{"doc_type":"通知","topic":"开展办公技能培训","sender":"各部门","issuer":"办公室","requirements":["明确参训人员","6月30日前完成报名"]}

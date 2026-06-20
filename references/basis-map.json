@@ -1,0 +1,87 @@
+{
+  "version": "0.8.0",
+  "standard": "GB/T 9704—2012《党政机关公文格式》",
+  "regulation": "《党政机关公文处理工作条例》",
+  "mappings": {
+    "missing_title": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·标题",
+      "human_readable": "正式公文应由发文机关、事由、文种组成标题，便于确定文种和办理对象。"
+    },
+    "title_not_official_pattern": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·标题",
+      "human_readable": "标题建议采用“发文机关 + 关于 + 事由 + 文种”或“关于 + 事由 + 文种”的结构。"
+    },
+    "title_topic_unclear": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·标题",
+      "human_readable": "标题事由应能说明办理对象、事项或工作主题，避免过于笼统。"
+    },
+    "missing_sender": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·主送机关",
+      "human_readable": "正式公文通常应明确主送机关，便于确定办理对象和责任边界。"
+    },
+    "missing_signature": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·发文机关署名",
+      "human_readable": "成文日期之上应署发文机关全称或规范化简称。"
+    },
+    "missing_date": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·成文日期",
+      "human_readable": "正式公文应标注成文日期，用阿拉伯数字将年、月、日标全。"
+    },
+    "bad_date_format": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·成文日期",
+      "human_readable": "成文日期建议使用“YYYY年M月D日”形式，不使用 2026-07-01 等分隔符形式，月、日不编虚位。"
+    },
+    "attachment_incomplete": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·附件说明",
+      "human_readable": "正文后应空一行左空二字标“附件：”，并列明附件顺序号和名称。"
+    },
+    "attachment_number_mismatch": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·附件说明",
+      "human_readable": "正文引用的附件顺序号应与文末附件说明一致。"
+    },
+    "level_mixing": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 主体·正文",
+      "human_readable": "正文层次序数依次用“一、”“（一）”“1.”“（1）”，不跳级、不混用。"
+    },
+    "colloquial": {
+      "basis": "《党政机关公文处理工作条例》 公文用语庄重、准确、简洁",
+      "human_readable": "公文用语应庄重规范，避免“赶紧”“搞一下”等口语化表达。"
+    },
+    "mandatory_without_basis": {
+      "basis": "《党政机关公文处理工作条例》 行文应当确有必要、依据充分",
+      "human_readable": "使用“必须”“严禁”“不得”等强制性表述时，应先列明政策、制度或上级文件依据。"
+    },
+    "personal_sensitive_info": {
+      "basis": "《个人信息保护法》 个人信息处理的合法、必要、最小化原则",
+      "human_readable": "涉及手机号、身份证号等个人信息的材料，提交或上传前应先脱敏，建议本地处理并人工复核。"
+    },
+    "confidential_material": {
+      "basis": "《保守国家秘密法》 及涉密公文密级标注要求",
+      "human_readable": "涉密或内部资料不应上传外部平台，应在本地环境处理，并按单位保密要求标注密级、人工复核。"
+    },
+    "request_multi_matters": {
+      "basis": "《党政机关公文处理工作条例》 请示一文一事",
+      "human_readable": "请示应坚持一文一事，多个事项建议拆分或明确主次。"
+    },
+    "request_closing_missing": {
+      "basis": "公文写作惯例·请示结语",
+      "human_readable": "请示文末建议使用“妥否，请批示”等规范结语。"
+    },
+    "report_with_request": {
+      "basis": "《党政机关公文处理工作条例》 报告与请示分立",
+      "human_readable": "报告不得夹带请示事项，需审批事项请另行行文请示。"
+    },
+    "letter_wrong_tone": {
+      "basis": "《党政机关公文处理工作条例》 函的适用范围",
+      "human_readable": "函适用于不相隶属机关之间商洽、询问、答复或请求协助，语气应平实、商洽，不用命令式。"
+    },
+    "notice_not_actionable": {
+      "basis": "《党政机关公文处理工作条例》 通知的适用范围",
+      "human_readable": "通知正文应尽量明确对象、事项、时间节点和办理要求，便于执行。"
+    },
+    "docx_tracked_changes": {
+      "basis": "GB/T 9704—2012《党政机关公文格式》 公文正式性要求",
+      "human_readable": "提交正式材料前请确认是否接受全部修订并删除批注，避免遗留修改痕迹。"
+    }
+  }
+}
